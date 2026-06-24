@@ -1,0 +1,29 @@
+.student-tab {
+  padding: 20px;
+}
+
+.student-tab h2 {
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}

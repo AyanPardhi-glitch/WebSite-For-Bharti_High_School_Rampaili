@@ -1,0 +1,90 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2c3e50;
+  color: white;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.hamburger, .dots {
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Menu */
+.menu {
+  position: fixed;
+  top: 80px;
+  right: 10px;
+  background: white;
+  color: black;
+  padding: 15px;
+  border-radius: 8px;
+  z-index: 9999;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.menu li {
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin: 10px 0;
+}
+
+
+nav ul {
+  display: flex;        /* 🔥 sabse important */
+  list-style: none;     /* bullet hatane ke liye */
+  gap: 20px;            /* items ke beech space */
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: yellow;
+}
+
+/* Dot Menu */
+.dotMenu {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  background: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.menu ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.menu ul li svg {
+  font-size: 18px;
+}

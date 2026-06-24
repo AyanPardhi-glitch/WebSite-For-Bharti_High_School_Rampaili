@@ -1,0 +1,34 @@
+/* 🔥 Full Page */
+.container {
+  min-height: 100vh;
+  padding-top: 120px; /* 🔥 navbar + heading space */
+  background: #000;
+  display: flex;
+  justify-content: flex-start; /* 🔥 center nahi */
+  align-items: center;
+  flex-direction: column;
+
+  background: linear-gradient(135deg, #2193b0, #6dd5ed);
+}
+
+/* 🔥 Form */
+.container form {
+  margin-top: 50px; /* heading ke niche */
+  background: rgb(82, 17, 211);
+  padding: 30px;
+  border-radius: 12px;
+  width: 320px;
+  height: 320px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* 🔥 Heading */
+.container h2 {
+  color: white;
+  margin-top: 3px;
+}

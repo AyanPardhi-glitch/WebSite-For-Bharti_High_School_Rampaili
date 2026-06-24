@@ -1,0 +1,55 @@
+
+.teacher-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;   /* 👈 vertical center */
+  
+  min-height: 100vh;     /* 👈 पूरा screen cover */
+  width: 100%;
+
+  padding: 20px;
+  background: linear-gradient(135deg, #2193b0, #6dd5ed);
+}
+.teacher-form {
+  width: 400px;
+  background: rgb(56, 12, 216);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  margin-top: 80px;
+}
+
+.teacher-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.teacher-form div {
+  margin-bottom: 12px;
+}
+
+.teacher-form input,
+.teacher-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-submit {
+  background: green;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+.btn-reset {
+  background: red;
+  color: white;
+  padding: 10px;
+  border: none;
+}

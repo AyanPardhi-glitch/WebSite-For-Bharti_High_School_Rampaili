@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: #121920;
+  color: white;
+  padding: 10px 20px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.notification {
+  margin-left: 10px;
+}
+
+.widgets {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.course-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.progress-bar {
+  background: #ddd;
+  border-radius: 5px;
+  height: 10px;
+}
+
+.progress {
+  background: #1976d2;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.sections {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.assignments, .events {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1;
+}
+
+/* ================= GLOBAL RESET ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================= BODY ================= */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
